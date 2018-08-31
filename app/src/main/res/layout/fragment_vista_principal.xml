@@ -1,0 +1,41 @@
+<RelativeLayout
+    android:id="@+id/relativeLayoutVistaPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000">
+
+    <ImageView
+        android:id="@+id/imageViewDeLaApp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#000"
+        android:src="@drawable/titulo"
+        />
+
+    <TextView
+        android:id="@+id/textViewTitulo01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cocina"
+        android:textColor="#FFF"
+        android:layout_below="@+id/imageViewDeLaApp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="para inutiles"
+        android:textColor="#FFF"
+        android:layout_below="@+id/textViewTitulo01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="100dp"/>
+
+</RelativeLayout>

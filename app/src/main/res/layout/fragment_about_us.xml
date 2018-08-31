@@ -1,0 +1,14 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Maximiliano Gnovatto, OBE (Johnstone, Escocia, 8 de noviembre de 1966) es un chef, dueño de restaurantes y presentador de televisión británico. En toda su carrera gastronómica ha sido condecorado con 16 estrellas Michelin, de las que hoy mantiene 14"
+        android:textSize="15"
+        android:layout_margin="20dp"
+        android:gravity="center"/>
+
+</LinearLayout>
